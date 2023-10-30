@@ -8,7 +8,7 @@
 	<meta name="description" content="No 1 Food Ordering Platform For Students" />
 	<meta name="keywords" content="No 1 Food Ordering Platform For Students" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="shortcut icon" href="https://cttaste.com/assets/images/fav_01.png">
+	<link rel="shortcut icon" href="https://jos.cttaste.com/assets/images/fav_01.png">
 
 	<link rel="shortcut icon" href="assets/images/logo-01.png" />
 	<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
@@ -396,7 +396,7 @@
 								<img src='{{$rest->image}}'
 									class="lazyload" width='300px' height='150px' alt='vendor_pics'>
 								@else
-								<img src='https://cttaste.com/cttaste_files/public/profilePic/{{$rest->image}}'
+								<img src='https://jos.cttaste.com/cttaste_files/public/profilePic/{{$rest->image}}'
 									class="lazyload" width='300px' height='150px' alt='vendor_pics'>
 								@endif
 								@else
@@ -431,7 +431,7 @@
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								@else
-								<img src='https://cttaste.com/cttaste_files/public/profilePic/{{$rest->image}}'
+								<img src='https://jos.cttaste.com/cttaste_files/public/profilePic/{{$rest->image}}'
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								@endif
@@ -722,7 +722,7 @@ $("#changeschool").on('change', function() {
 						<div class="hover">
 							<a href='/${value.slug}'>
 							
-								<img src="https://cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp' }"
+								<img src="https://jos.cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp' }"
 									 width='25%' height='150px' style='max-height:150px;max-width:100%;' class='lazyload'/>
 							
 								<div class="order-title-bg">
@@ -741,7 +741,7 @@ $("#changeschool").on('change', function() {
 							<a data-name='${value.name}' class='closed'>
 								
 
-								<img src='https://cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp'}'
+								<img src='https://jos.cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp'}'
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								<div class='order-title lazyload'
@@ -768,7 +768,7 @@ $("#changeschool").on('change', function() {
 							<a data-name='${value.name}' class='closed'>
 								
 
-								<img src='https://cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp'}'
+								<img src='https://jos.cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp'}'
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								<div class='order-title lazyload'

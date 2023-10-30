@@ -396,7 +396,7 @@
                             </div>
                         </div>
                         <div class="col-5 align-self-end">
-                            <img src="https://cttaste.com/api_user/assets/images/profile-img.png" alt=""
+                            <img src="https://jos.cttaste.com/api_user/assets/images/profile-img.png" alt=""
                                 class="img-fluid">
                             {{-- <img src="/assets/images/circlebanner.jpg" alt="" class="img-fluid"> --}}
                         </div>
@@ -407,7 +407,7 @@
                         <div class="col-sm-4">
                             <div class="avatar-md profile-user-wid mb-4">
                                 @if($user->image !== null)
-                                <img src="https://cttaste.com/cttaste_files/public/profilePic/{{ $user->image }}" alt=""
+                                <img src="https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $user->image }}" alt=""
                                     class="img-thumbnail rounded-circle">
                                 @else
                                 <img src="assets/images/banner3.jpeg" alt="" class="img-thumbnail rounded-circle">
@@ -424,7 +424,7 @@
                                     <h6>Store Unique Link:
                                         <div class="input-group">
                                             <input id='link-to-copy' type="text" class="form-control"
-                                                value="https://cttaste.com/{{ $user->slug }}">
+                                                value="https://jos.cttaste.com/{{ $user->slug }}">
                                             <div class="input-group-append">
                                                 <button id='copy-link' style='background:#ebab21'
                                                     class="btn btn-primary" type="button"><i
@@ -746,7 +746,7 @@
                                             @else
                                             <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px'
                                                 width='90px' height='70px'
-                                                src='https://cttaste.com/cttaste_files/public/foodimages/{{ $food->image }}' />
+                                                src='https://jos.cttaste.com/cttaste_files/public/foodimages/{{ $food->image }}' />
                                                 @endif
                                             @endif
                                         </div>
@@ -1017,7 +1017,7 @@
                 <td>
                 
                     <div class="symbol symbol-60px symbol-2by3 me-4">
-                                            <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px' width='90px' height='70px' src='https://cttaste.com/cttaste_files/public/foodimages/${data.image}'/>
+                                            <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px' width='90px' height='70px' src='https://jos.cttaste.com/cttaste_files/public/foodimages/${data.image}'/>
                                            
                                         </div>
                 </td>

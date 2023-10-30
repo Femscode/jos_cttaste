@@ -13,7 +13,7 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Order your favorite meal from {{$rest->name}}" />
 	<meta name="csrf-token" content="{{ csrf_token() }}">
-	<link rel="shortcut icon" href="https://cttaste.com/assets/images/fav_01.png">
+	<link rel="shortcut icon" href="https://jos.cttaste.com/assets/images/fav_01.png">
 
 	<meta property="og:site_name" content="Order your favorite meal from {{$rest->name}}" />
 	<link rel="canonical" href="No 1 Food Ordering Platform For Students" />
@@ -295,7 +295,7 @@
 
 
 											<div class="mixed-widget card-rounded-bottom" data-kt-color="danger"
-												style="background:url('https://cttaste.com/cttaste_files/public/profilePic/{{ $rest->image }}');background-size:cover;height: 250px; min-height: 200px;">
+												style="background:url('https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $rest->image }}');background-size:cover;height: 250px; min-height: 200px;">
 												@else
 												<div class='card'>
 													<div id="carouselExampleIndicators" class="carousel slide"
@@ -321,13 +321,13 @@
 
 																@else
 																<img class="mixed-widget card-rounded-bottom"
-																	src="https://cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
+																	src="https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
 																	alt="Third slide" class="card-img-top"
 																	style='width: 100%;height: 250px;object-fit: cover;'>
 
 																@endif --}}
 																<img class="mixed-widget card-rounded-bottom"
-																	src="https://cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
+																	src="https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
 																	alt="Third slide" class="card-img-top"
 																	style='width: 100%;height: 250px;object-fit: cover;'>
 
@@ -335,7 +335,7 @@
 															</div>
 															<div class="carousel-item">
 																<img class="mixed-widget card-rounded-bottom"
-																	src="https://cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
+																	src="https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
 																	alt="Third slide" class="card-img-top"
 																	style='width: 100%;height: 250px;object-fit: cover;'>
 
@@ -607,7 +607,7 @@
 										</div>
 										@else
 										<div class="symbol-label"
-											style="margin-left:20px;background-image: url('https://cttaste.com/cttaste_files/public/foodimages/{{ $menu->image }}')">
+											style="margin-left:20px;background-image: url('https://jos.cttaste.com/cttaste_files/public/foodimages/{{ $menu->image }}')">
 										</div>
 										@endif
 									</div>

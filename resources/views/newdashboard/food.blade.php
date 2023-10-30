@@ -412,7 +412,7 @@
                                         @else
 
                                         <div class="symbol symbol-60px symbol-2by3 me-4">
-                                            <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px' width='90px' height='70px' src='https://cttaste.com/cttaste_files/public/foodimages/{{ $food->image }}'/>
+                                            <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px' width='90px' height='70px' src='https://jos.cttaste.com/cttaste_files/public/foodimages/{{ $food->image }}'/>
                                            
                                         </div>
                                         @endif
@@ -602,7 +602,7 @@
                 <td>
                 
                     <div class="symbol symbol-60px symbol-2by3 me-4">
-                                            <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px' width='90px' height='70px' src='https://cttaste.com/cttaste_files/public/foodimages/${data.image}'/>
+                                            <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px' width='90px' height='70px' src='https://jos.cttaste.com/cttaste_files/public/foodimages/${data.image}'/>
                                            
                                         </div>
                 </td>

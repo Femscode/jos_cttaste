@@ -13,7 +13,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://ctspicy.com" />
     <link rel="canonical" href="https://ctspicy.com/" />
-    <link rel="shortcut icon" href="https://cttaste.com/assets/images/fav_01.png" />
+    <link rel="shortcut icon" href="https://jos.cttaste.com/assets/images/fav_01.png" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--begin::Fonts-->
@@ -540,7 +540,7 @@
                                                                                 </div>
                                                                                 @else
                                                                                 <div class="symbol-label"
-                                                                                    style="background-image: url('https://cttaste.com/cttaste_files/public/foodimages/{{ $menu['image'] }}')">
+                                                                                    style="background-image: url('https://jos.cttaste.com/cttaste_files/public/foodimages/{{ $menu['image'] }}')">
                                                                                 </div>
                                                                                 @endif
                                                                             </div>
