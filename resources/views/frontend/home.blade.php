@@ -381,9 +381,7 @@
 				@endif
 				<div id='allschools' class="order-cat">
 					@foreach($restaurants as $rest)
-					{{ $rest->id }} {{ $rest->email }}
-					
-					
+				
 					@if ($rest->isOpenNow(now()->format("H:i:s")) == 1)
 					{{-- @if(Carbon\Carbon::now()->format('H:i') > $rest->opening_hour &&
 					Carbon\Carbon::now()->format('H:i') < $rest->closing_hour ) --}}
