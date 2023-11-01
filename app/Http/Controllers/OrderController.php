@@ -274,9 +274,11 @@ class OrderController extends Controller
                 'cart' => serialize(session()->get('cart')),
             ]);
 
-            $whatsappMessage .= "*%0a------*MAKE%20PAYMENT*------%0ahttps://fastpay.cttaste.com/" . $order->order_id;
+            // $whatsappMessage .= "*%0a------*MAKE%20PAYMENT*------%0ahttps://fastpay.cttaste.com/" . $order->order_id;
+            $whatsappMessage .= "*";
         } elseif ($user->block == 0) {
-            $whatsappMessage .= "*%0a------*MAKE%20PAYMENT*------%0ahttps://fastpay.cttaste.com/" . $order->order_id;
+            // $whatsappMessage .= "*%0a------*MAKE%20PAYMENT*------%0ahttps://fastpay.cttaste.com/" . $order->order_id;
+            $whatsappMessage .= "*";
         } else {
             $whatsappMessage .= "*";
         }
