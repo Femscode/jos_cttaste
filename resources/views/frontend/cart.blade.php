@@ -540,7 +540,7 @@
                                                                                 </div>
                                                                                 @else
                                                                                 <div class="symbol-label"
-                                                                                    style="background-image: url('https://jos.cttaste.com/cttaste_files/public/foodimages/{{ $menu['image'] }}')">
+                                                                                    style="background-image: url('https://jos.cttaste.com/jos_files/public/foodimages/{{ $menu['image'] }}')">
                                                                                 </div>
                                                                                 @endif
                                                                             </div>
