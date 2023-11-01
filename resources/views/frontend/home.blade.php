@@ -399,7 +399,7 @@
 									class="lazyload" width='300px' height='150px' alt='vendor_pics'>
 								@endif
 								@else
-								<img src='{{ asset(' profilePic/normal.webp') }}' class="lazyload" width='300px'
+								<img src='{{ asset(' profilePic/amalabanner.jpg') }}' class="lazyload" width='300px'
 									height='150px' alt='vendor_image' />
 								@endif
 								{{-- <div class="card-bottom-right-sticker"
@@ -439,7 +439,7 @@
 									CLOSED
 								</div>
 								@else
-								<img src='{{ asset(' profilePic/normal.webp') }}' class="lazyload" width='300px'
+								<img src='{{ asset(' profilePic/amalabanner.jpg') }}' class="lazyload" width='300px'
 									height='150px'
 									style='opacity: 0.5;max-height:150px;background-color:rgb(255,255,255,0.5)' />
 								<div class='order-title'
@@ -721,7 +721,7 @@ $("#changeschool").on('change', function() {
 						<div class="hover">
 							<a href='/${value.slug}'>
 							
-								<img src="https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'normal.webp' }"
+								<img src="https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'amalabanner.jpg' }"
 									 width='25%' height='150px' style='max-height:150px;max-width:100%;' class='lazyload'/>
 							
 								<div class="order-title-bg">
@@ -740,7 +740,7 @@ $("#changeschool").on('change', function() {
 							<a data-name='${value.name}' class='closed'>
 								
 
-								<img src='https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'normal.webp'}'
+								<img src='https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'amalabanner.jpg'}'
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								<div class='order-title lazyload'
@@ -767,7 +767,7 @@ $("#changeschool").on('change', function() {
 							<a data-name='${value.name}' class='closed'>
 								
 
-								<img src='https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'normal.webp'}'
+								<img src='https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'amalabanner.jpg'}'
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								<div class='order-title lazyload'
