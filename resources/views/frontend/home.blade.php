@@ -395,7 +395,7 @@
 								<img src='{{$rest->image}}'
 									class="lazyload" width='300px' height='150px' alt='vendor_pics'>
 								@else
-								<img src='https://jos.cttaste.com/cttaste_files/public/profilePic/{{$rest->image}}'
+								<img src='https://jos.cttaste.com/jos_files/public/profilePic/{{$rest->image}}'
 									class="lazyload" width='300px' height='150px' alt='vendor_pics'>
 								@endif
 								@else
@@ -430,7 +430,7 @@
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								@else
-								<img src='https://jos.cttaste.com/cttaste_files/public/profilePic/{{$rest->image}}'
+								<img src='https://jos.cttaste.com/jos_files/public/profilePic/{{$rest->image}}'
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								@endif
@@ -485,7 +485,7 @@
 				<div class="collection-grid">
 					<a href='restaurant/best/all'>
 						<div class="collection-box">
-							<img src="homepage/images/order3.jpg" class="lazyload" width='400px' height='150px'>
+							<img src="https://jos.cttaste.com/public/homepage/images/order3.jpg" class="lazyload" width='400px' height='150px'>
 							<div class="collection-title">
 								<h3>Best of Jos</h3>
 								<p>Top 10 <i class="fa fa-caret-right"></i></p>
@@ -494,7 +494,7 @@
 					</a>
 					<a href='restaurant/trending/all'>
 						<div class="collection-box">
-							<img src="homepage/images/collection2.jpg" class="lazyload" width='200px' height='150px'>
+							<img src="https://jos.cttaste.com/public/homepage/images/collection2.jpg" class="lazyload" width='200px' height='150px'>
 							<div class="collection-title">
 								<h3>Trending This Week</h3>
 								<p>30 Foods <i class="fa fa-caret-right"></i></p>
@@ -503,7 +503,7 @@
 					</a>
 					<a href='restaurant/new/all'>
 						<div class="collection-box">
-							<img src="homepage/images/collection3.jpg" class="lazyload" width='200px' height='150px'>
+							<img src="https://jos.cttaste.com/public/homepage/images/collection3.jpg" class="lazyload" width='200px' height='150px'>
 							<div class="collection-title">
 								<h3>Newly Opened</h3>
 								<p>7 Rest. <i class="fa fa-caret-right"></i></p>
@@ -512,7 +512,7 @@
 					</a>
 					<a href='restaurant/cheap/all'>
 						<div class="collection-box">
-							<img src="homepage/images/order4.webp" class="lazyload" width='400px' height='150px'>
+							<img src="https://jos.cttaste.com/public/homepage/images/order4.webp" class="lazyload" width='400px' height='150px'>
 							<div class="collection-title">
 								<h3>Cheap and making sense!</h3>
 								<p>19 Rest. <i class="fa fa-caret-right"></i></p>
@@ -721,7 +721,7 @@ $("#changeschool").on('change', function() {
 						<div class="hover">
 							<a href='/${value.slug}'>
 							
-								<img src="https://jos.cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp' }"
+								<img src="https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'normal.webp' }"
 									 width='25%' height='150px' style='max-height:150px;max-width:100%;' class='lazyload'/>
 							
 								<div class="order-title-bg">
@@ -740,7 +740,7 @@ $("#changeschool").on('change', function() {
 							<a data-name='${value.name}' class='closed'>
 								
 
-								<img src='https://jos.cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp'}'
+								<img src='https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'normal.webp'}'
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								<div class='order-title lazyload'
@@ -767,7 +767,7 @@ $("#changeschool").on('change', function() {
 							<a data-name='${value.name}' class='closed'>
 								
 
-								<img src='https://jos.cttaste.com/cttaste_files/public/profilePic/${value.image ?? 'normal.webp'}'
+								<img src='https://jos.cttaste.com/jos_files/public/profilePic/${value.image ?? 'normal.webp'}'
 									class="lazyload" width='300px' height='150px'
 									style='opacity: 0.3;max-height:150px;background-color:rgb(255,255,255,0.5)'>
 								<div class='order-title lazyload'
