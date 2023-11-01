@@ -279,7 +279,7 @@
 				</nav>
 				<div class="animate__animated animate__swing rounded hero-text">
 					{{-- <img src='assets/images/frontal.avif' style='width:200px;height:150px' /> --}}
-					<h1 class="bold-place;"><span class="bold-place" style='font-family:cursive;color:black'>Jos Delicacies, Delivered to You😋💃🏻</span></h1>
+					<h1 class="bold-place;"><span class="bold-place" style='font-family:cursive;color:black'>Best meal in town, Delivered to You😋💃🏻</span></h1>
 					{{-- style='font-family:cursive'>Savor every bite, from the comfort of your own home.🎉, ...Where
 					great taste meets convenience😋, Food to fit your mood, just a click away.!💃🏻</span></h1> --}}
 					<div class='col-md-8'>
