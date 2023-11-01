@@ -427,7 +427,7 @@
 											<!--end::Checkbox-->
 											<!--begin::Order ID=-->
 											<td data-kt-ecommerce-order-filter="order_id">
-												<a class="text-gray-800 text-hover-primary fw-bolder">{{$user->name}} {{ $user->id }}</a>
+												<a class="text-gray-800 text-hover-primary fw-bolder">{{$user->name}}</a>
 												{{$user->school}}
 											</td>
 											<!--end::Order ID=-->
