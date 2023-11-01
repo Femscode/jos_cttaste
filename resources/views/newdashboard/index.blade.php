@@ -407,7 +407,7 @@
                         <div class="col-sm-4">
                             <div class="avatar-md profile-user-wid mb-4">
                                 @if($user->image !== null)
-                                <img src="https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $user->image }}" alt=""
+                                <img src="https://jos.cttaste.com/jos_files/public/profilePic/{{ $user->image }}" alt=""
                                     class="img-thumbnail rounded-circle">
                                 @else
                                 <img src="assets/images/banner3.jpeg" alt="" class="img-thumbnail rounded-circle">
@@ -746,7 +746,7 @@
                                             @else
                                             <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px'
                                                 width='90px' height='70px'
-                                                src='https://jos.cttaste.com/cttaste_files/public/foodimages/{{ $food->image }}' />
+                                                src='https://jos.cttaste.com/jos_files/public/foodimages/{{ $food->image }}' />
                                                 @endif
                                             @endif
                                         </div>
@@ -1017,7 +1017,7 @@
                 <td>
                 
                     <div class="symbol symbol-60px symbol-2by3 me-4">
-                                            <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px' width='90px' height='70px' src='https://jos.cttaste.com/cttaste_files/public/foodimages/${data.image}'/>
+                                            <img class="symbol-label" style='border:2px solid #ebab21;border-radius:4px' width='90px' height='70px' src='https://jos.cttaste.com/jos_files/public/foodimages/${data.image}'/>
                                            
                                         </div>
                 </td>
