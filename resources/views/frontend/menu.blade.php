@@ -295,7 +295,7 @@
 
 
 											<div class="mixed-widget card-rounded-bottom" data-kt-color="danger"
-												style="background:url('https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $rest->image }}');background-size:cover;height: 250px; min-height: 200px;">
+												style="background:url('https://jos.cttaste.com/jos_files/public/profilePic/{{ $rest->image }}');background-size:cover;height: 250px; min-height: 200px;">
 												@else
 												<div class='card'>
 													<div id="carouselExampleIndicators" class="carousel slide"
@@ -321,13 +321,13 @@
 
 																@else
 																<img class="mixed-widget card-rounded-bottom"
-																	src="https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
+																	src="https://jos.cttaste.com/jos_files/public/profilePic/{{ $rest->image}}"
 																	alt="Third slide" class="card-img-top"
 																	style='width: 100%;height: 250px;object-fit: cover;'>
 
 																@endif --}}
 																<img class="mixed-widget card-rounded-bottom"
-																	src="https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
+																	src="https://jos.cttaste.com/jos_files/public/profilePic/{{ $rest->image}}"
 																	alt="Third slide" class="card-img-top"
 																	style='width: 100%;height: 250px;object-fit: cover;'>
 
@@ -335,7 +335,7 @@
 															</div>
 															<div class="carousel-item">
 																<img class="mixed-widget card-rounded-bottom"
-																	src="https://jos.cttaste.com/cttaste_files/public/profilePic/{{ $rest->image}}"
+																	src="https://jos.cttaste.com/jos_files/public/profilePic/{{ $rest->image}}"
 																	alt="Third slide" class="card-img-top"
 																	style='width: 100%;height: 250px;object-fit: cover;'>
 
@@ -607,7 +607,7 @@
 										</div>
 										@else
 										<div class="symbol-label"
-											style="margin-left:20px;background-image: url('https://jos.cttaste.com/cttaste_files/public/foodimages/{{ $menu->image }}')">
+											style="margin-left:20px;background-image: url('https://jos.cttaste.com/jos_files/public/foodimages/{{ $menu->image }}')">
 										</div>
 										@endif
 									</div>

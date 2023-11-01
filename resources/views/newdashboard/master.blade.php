@@ -201,7 +201,7 @@
                             @else
 
                             <img class="rounded-circle header-profile-user"
-                                src="https://cttaste.com/cttaste_files/public/profilePic/{{ $user->image }}"
+                                src="https://jos.cttaste.com/jos_files/public/profilePic/{{ $user->image }}"
                                 alt="Profile Pic">
                             @endif
                             @else
