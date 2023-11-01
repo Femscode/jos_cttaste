@@ -381,6 +381,7 @@
 				@endif
 				<div id='allschools' class="order-cat">
 					@foreach($restaurants as $rest)
+					{{ $rest->id }} {{ $rest->email }}
 					
 					
 					@if ($rest->isOpenNow(now()->format("H:i:s")) == 1)
