@@ -5,8 +5,8 @@
 <head>
 	<title>CTtaste</title>
 	<meta charset="utf-8" />
-	<meta name="description" content="No 1 Food Ordering Platform For Students" />
-	<meta name="keywords" content="No 1 Food Ordering Platform For Students" />
+	<meta name="description" content="Order for the best meal in town!" />
+	<meta name="keywords" content="Order for the best meal in town!" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="shortcut icon" href="https://jos.cttaste.com/assets/images/fav_01.png">
 
