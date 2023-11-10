@@ -355,9 +355,9 @@
 				<h2>Available <span style='color:#ebab21'>Restaurants</span> in <span class='realschool'>Jos</span>
 				</h2>
 
-				<div style='font-size:17px; border-top:2px solid #ffc107' class='alert alert-warning'> Enjoy 1GB of data
+				{{-- <div style='font-size:17px; border-top:2px solid #ffc107' class='alert alert-warning'> Enjoy 1GB of data
 					for #200, 10GB for #2,200 for all networks only on <a style='color:blueviolet'
-						href='https://fastpay.cttaste.com/register'>CT_Taste's Fastpay.</a></div>
+						href='https://fastpay.cttaste.com/register'>CT_Taste's Fastpay.</a></div> --}}
 
 				{{-- <marquee direction='right' class='animate__animated animate__bounce rounded m-0 p-2'
 					style='background:black;color:white' width='100%' ;height='100px'>

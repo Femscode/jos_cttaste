@@ -564,9 +564,9 @@
 				Airtime, and Bills payment on <a style='color:blueviolet'
 					href='https://fastpay.cttaste.com/register'>CT_Taste's Fastpay.</a></div>
 			@endif --}}
-			<div style='font-size:17px; border-top:2px solid #ffc107' class='alert alert-warning'> Enjoy 1GB of data for
+			{{-- <div style='font-size:17px; border-top:2px solid #ffc107' class='alert alert-warning'> Enjoy 1GB of data for
 				#200, 10GB for #2,200 for all networks only on <a style='color:blueviolet'
-					href='https://fastpay.cttaste.com/register'>CT_Taste's Fastpay.</a></div>
+					href='https://fastpay.cttaste.com/register'>CT_Taste's Fastpay.</a></div> --}}
 
 
 			<!--end::Search products-->
