@@ -219,6 +219,7 @@ class FoodController extends Controller
         // dd($capitalized_day);
         $data['restaurants'] = User::where('approve', 1)
             ->where('school', 'JOS')
+            ->where('account_type','Live')
             ->with(['working_hour' => function ($query) use ($current_day, $current_time) {
                 $query->where('day', $current_day)
                     ->orderBy('opening_hour', 'asc');
