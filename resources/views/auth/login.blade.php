@@ -4,7 +4,7 @@
 <head>
 		<title>CTTaste</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="The best food ordering platform around your institution" />
+		<meta name="description" content="The best meals in town, delivered to your doorstep." />
 		<meta name="keywords" content="CTtaste" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta property="og:locale" content="en_US" />

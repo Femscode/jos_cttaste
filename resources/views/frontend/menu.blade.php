@@ -6,7 +6,7 @@
 <head>
 	<title>CT_Taste</title>
 	<meta charset="utf-8" />
-	<meta name="description" content="No 1 Food Ordering Platform For Students" />
+	<meta name="description" content="Order your favorite meal from {{$rest->name}}." />
 	<meta name="keywords" content="Order your favorite meal from {{$rest->name}}" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta property="og:locale" content="en_US" />
