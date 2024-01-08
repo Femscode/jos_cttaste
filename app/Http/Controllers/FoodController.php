@@ -208,6 +208,7 @@ class FoodController extends Controller
 
     public function home()
     {
+        return redirect("https://cttaste.com/jos-city");
         $current_time = now()->format('H:i:s');
         // $auth_user = 
         // dd(User::first()->working_hour);
@@ -272,7 +273,8 @@ class FoodController extends Controller
     }
     public function restaurant($slug)
     {
-
+        return redirect("https://cttaste.com/jos-city");
+        
         $data['rest'] = $rest = User::where('slug', $slug)->first();
 
         $data['others'] = $others = User::where('school', $rest->school)->orderBy('rank')->paginate(10);
